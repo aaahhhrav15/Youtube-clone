@@ -1,0 +1,22 @@
+*{
+    margin:0;
+}
+.logo{
+    display:flex;
+    align-items:center;
+    margin-left:1%;
+    color:white;
+}
+.logo img{
+    padding: 13px 5px;
+}
+.nav{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    background-color:black;
+}
+.input{
+    display:flex;
+    align-items:center;
+}

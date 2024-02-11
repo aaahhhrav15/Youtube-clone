@@ -15,8 +15,33 @@
     align-items:center;
     justify-content:space-between;
     background-color:black;
+    padding: 0 1.5%;
 }
 .input{
     display:flex;
     align-items:center;
+}
+.input input{
+    width:25rem;
+    height:1rem;
+    border-radius:20px 0 0 20px;
+    padding:8px;
+    border:none;
+    outline:none;
+    padding-left:12px;
+    background:#333333;
+    border:1px solid #656565;
+    color:white;
+}
+.input button{
+    width:3.5rem;
+    height:2.1rem;
+    border-radius:0 20px 20px 0;
+    border:1px solid #444444;
+    background:#222222;
+    cursor:pointer;
+}
+.input button img{
+    margin-right:5%;
+    margin-top:5%;
 }

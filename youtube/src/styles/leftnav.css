@@ -1,0 +1,31 @@
+.container{
+    color:white;
+    padding-left:2.7%;
+}
+.first{
+    line-height:1.6;
+}
+.home{
+    display:flex;
+    align-items:center;
+}
+.shorts{
+    display:flex;
+    align-items:center;
+}
+.subscription{
+    display:flex;
+    align-items:center;
+}
+h3{
+    padding-left:2%;
+}
+.container{
+    margin-top:2%;
+}
+.gap{
+    margin-top:1rem;
+    background-color:#444444;
+    width:13rem;
+    height:0.05rem;
+}

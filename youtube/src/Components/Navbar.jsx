@@ -1,7 +1,8 @@
 import React from 'react';
 import "../styles/navbar.css";
 import logo from "../assets/youtube.png";
-import search from "../assets/search.png";
+import search from "../assets/search.ico";
+import user from "../assets/user.png";
 
 const Navbar = () => {
   return (
@@ -13,10 +14,12 @@ const Navbar = () => {
       </div>
       <div className="input">
         <input type="text" placeholder="Search...." />
-        <img src={search} alt="" style={ {width:15} }  />
+        <button>
+          <img src={search} alt="" style={ {width:18} }  />
+        </button>
       </div>
-      <div className="left">
-
+      <div className="login">
+        <img src={user} alt="" width={30}/>
       </div>
     </div>
     </>

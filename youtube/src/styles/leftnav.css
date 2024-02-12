@@ -2,30 +2,29 @@
     color:white;
     padding-left:2.7%;
 }
-.first{
-    line-height:1.6;
+.first , .second{
+    line-height:2.1;
 }
-.home{
+.flex{
     display:flex;
     align-items:center;
 }
-.shorts{
-    display:flex;
-    align-items:center;
-}
-.subscription{
-    display:flex;
-    align-items:center;
-}
-h3{
-    padding-left:2%;
+
+.flex h3{
+    padding-left:8%;
 }
 .container{
     margin-top:2%;
+    width:17%;
+}
+.container img{
+    width:16px;
+    height:16px;
 }
 .gap{
     margin-top:1rem;
     background-color:#444444;
     width:13rem;
     height:0.05rem;
+    margin-bottom:1rem;
 }

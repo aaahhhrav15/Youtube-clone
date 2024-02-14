@@ -7,7 +7,7 @@ const Cards = () => {
     <>
         <div className="card">
             <div className="thumbnail">
-                <img src="https://i.ytimg.com/vi/HskNR0Ew3nE/maxresdefault.jpg" alt=""/>
+                <img src="https://i.ytimg.com/vi/HskNR0Ew3nE/maxresdefault.jpg" alt="" />
             </div>
             <div className="remcard">
                 <div className="logochannel">
